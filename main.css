@@ -1,0 +1,190 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    padding-top: 5rem;
+}
+body{
+    background-color: lightgray;
+    user-select: none;
+}
+
+header nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+    background-color: #041560;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around
+}
+
+header nav #lista ul {
+    display: flex;
+    color: #ffffff;
+}
+
+header nav #esq {
+    display: flex;
+    align-items: center;
+}
+
+header nav #esq img {
+    width: 5rem;
+
+}
+
+header nav #esq h1 {
+    color: #ffffff;
+
+}
+
+header nav #lista ul li {
+    list-style: none;
+    margin: 0px 15px;
+    align-items: center;
+    justify-content: right;
+    font-size: larger;
+    font-weight: 900;
+    
+
+}
+
+
+header nav ul a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+header nav #lista ul li:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+
+#titulo1 h2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 1px 1px #b8821f;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#titulo2 h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Palatino, URW Palladio L, serif;
+    font-weight: 900;
+    font-size: 400%;
+    color: #e7c68f;
+    text-shadow: 2px 2px #b76e22;
+    text-align: center;
+}
+
+#pag1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+#pag1 #carrovermelho{
+    display: flex;
+    width: 60%;
+    justify-content: right;
+}
+#pag1 #carrovermelho img{
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+}
+#pag1 #text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pag1 #text #text1{
+    display: flex;
+    text-align: center;
+}
+#pag1 #text #text1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 5px;
+    font-size: 50px;
+    margin-bottom: 10%;
+    font-style: ;
+    text-shadow: 4px 4px 4px rgb(131, 105, 66);
+}
+#pag1 #text #botao{   
+    
+
+    
+}
+#pag1 #text #botao button{
+    font-size: 200%;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    transition: all .5s;
+    padding: 10px;
+
+    border: 5px #000000 solid ;
+}
+
+#pag1 #text #botao button:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+#pag2{
+    display: flex;
+
+}
+#pag2 #han{
+    display: flex;
+    width: 30%;
+    justify-content: end;
+    height: 100vh;
+    justify-content: left;
+    margin-left: 1%;
+    
+    
+}
+#pag2 #han img{
+    margin-top: 40%;
+    width: auto;
+    
+}
+#pag2 #carrazul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-right: 3%;
+
+}
+#pag2 #carrazul img{
+    display: flex;
+    width: 100%;
+    margin-right: 3%;
+
+}
+#pag2 #carrazul p{ 
+    display: flex;
+    margin-top: 4%;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 99%;
+    font-size: larger;
+}
